@@ -338,6 +338,12 @@
 			null
 		],
 		[
+			"C:/Users/User/Desktop/oop/cursework/habittracker.h",
+			"MU",
+			"EWIEGA46WW/moc_habittracker.cpp",
+			null
+		],
+		[
 			"C:/Users/User/Desktop/oop/cursework/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -418,6 +424,7 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/User/Desktop/oop/cursework/habit.cpp", "MU", null ],
+		[ "C:/Users/User/Desktop/oop/cursework/habittracker.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/main.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/mainwindow.cpp", "MU", null ]
 	],
