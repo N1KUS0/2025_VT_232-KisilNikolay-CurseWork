@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-506a2456361b0cf24aa3.json",
+					"jsonFile" : "directory-.-Debug-5fec1df837ceaf1ad0ae.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cursework::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cursework-Debug-df29979ed46289e04623.json",
+					"jsonFile" : "target-cursework-Debug-3d4e9806705e86c81e76.json",
 					"name" : "cursework",
 					"projectIndex" : 0
 				},

@@ -332,6 +332,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/User/Desktop/oop/cursework/datastorage.h",
+			"MU",
+			"EWIEGA46WW/moc_datastorage.cpp",
+			null
+		],
+		[
 			"C:/Users/User/Desktop/oop/cursework/habit.h",
 			"MU",
 			"EWIEGA46WW/moc_habit.cpp",
@@ -423,6 +429,7 @@
 	"SETTINGS_FILE" : "C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/cursework_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/User/Desktop/oop/cursework/datastorage.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/habit.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/habittracker.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/main.cpp", "MU", null ],

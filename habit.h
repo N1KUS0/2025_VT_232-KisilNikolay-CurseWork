@@ -16,6 +16,7 @@ public:
     QSet<int> getTargetDays() const;
     void markCompleted(const QDate& date);
     bool isCompleted(const QDate& date) const;
+    QSet<QDate> getCompletedDates() const { return m_completedDates; }
 
 private:
     int m_id;
