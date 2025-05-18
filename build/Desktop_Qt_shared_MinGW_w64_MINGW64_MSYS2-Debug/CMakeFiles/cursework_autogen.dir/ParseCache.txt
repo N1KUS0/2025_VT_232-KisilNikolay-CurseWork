@@ -7,6 +7,9 @@ C:/Users/User/Desktop/oop/cursework/habbit.h
 C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mmc:Q_OBJECT
  mdp:C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursework_autogen/moc_predefs.h
+ mdp:C:/Users/User/Desktop/oop/cursework/datastorage.h
+ mdp:C:/Users/User/Desktop/oop/cursework/habit.h
+ mdp:C:/Users/User/Desktop/oop/cursework/habittracker.h
  mdp:C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mdp:C:/msys64/mingw64/include/_mingw.h
  mdp:C:/msys64/mingw64/include/_mingw_mac.h
@@ -136,6 +139,7 @@ C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mdp:C:/msys64/mingw64/include/c++/15.1.0/ext/numeric_traits.h
  mdp:C:/msys64/mingw64/include/c++/15.1.0/ext/string_conversions.h
  mdp:C:/msys64/mingw64/include/c++/15.1.0/ext/type_traits.h
+ mdp:C:/msys64/mingw64/include/c++/15.1.0/filesystem
  mdp:C:/msys64/mingw64/include/c++/15.1.0/functional
  mdp:C:/msys64/mingw64/include/c++/15.1.0/initializer_list
  mdp:C:/msys64/mingw64/include/c++/15.1.0/iosfwd
@@ -202,6 +206,13 @@ C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mdp:C:/msys64/mingw64/include/pthread_signal.h
  mdp:C:/msys64/mingw64/include/pthread_time.h
  mdp:C:/msys64/mingw64/include/pthread_unistd.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/QDate
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/QFile
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/QJsonArray
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/QJsonDocument
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/QList
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/QSet
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/QString
  mdp:C:/msys64/mingw64/include/qt6/QtCore/q17memory.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/q20functional.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/q20iterator.h
@@ -223,6 +234,9 @@ C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qbytearrayalgorithms.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qbytearraylist.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qbytearrayview.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qcalendar.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qcborcommon.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qcborvalue.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qchar.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qcompare.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qcompare_impl.h
@@ -236,9 +250,12 @@ C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qcontiguouscache.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qdarwinhelpers.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qdatastream.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qdatetime.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qdebug.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qendian.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qexceptionhandling.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qfile.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qfiledevice.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qflags.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qfloat16.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qforeach.h
@@ -249,12 +266,18 @@ C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qglobalstatic.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qhash.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qhashfunctions.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qiodevice.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qiodevicebase.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qiterable.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qiterator.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qjsonarray.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qjsondocument.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qjsonparseerror.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qjsonvalue.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qlatin1stringview.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qline.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qlist.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qlocale.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qlogging.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qmalloc.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qmap.h
@@ -275,6 +298,7 @@ C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qprocessordetection.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qrect.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qrefcount.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qregularexpression.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qscopedpointer.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qscopeguard.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qset.h
@@ -321,7 +345,9 @@ C:/Users/User/Desktop/oop/cursework/mainwindow.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qtversionchecks.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qtypeinfo.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qtypes.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/qurl.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qutf8stringview.h
+ mdp:C:/msys64/mingw64/include/qt6/QtCore/quuid.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qvariant.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qvarlengtharray.h
  mdp:C:/msys64/mingw64/include/qt6/QtCore/qversiontagging.h
@@ -386,5 +412,5 @@ C:/Users/User/Desktop/oop/cursework/habittracker.h
 C:/Users/User/Desktop/oop/cursework/habbit.cpp
 C:/Users/User/Desktop/oop/cursework/main.cpp
 C:/Users/User/Desktop/oop/cursework/mainwindow.cpp
- uic:./ui_mainwindow.h
+ uic:ui_mainwindow.h
 C:/Users/User/Desktop/oop/cursework/habittracker.cpp

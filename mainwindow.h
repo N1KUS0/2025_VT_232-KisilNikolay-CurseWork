@@ -2,22 +2,35 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "habittracker.h"
+#include "datastorage.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
+namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
-{
+class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void onAddButtonClicked();
+    void onDeleteButtonClicked();
+    void onMarkCompletedClicked();
+    void onDateSelected(const QDate &date);
+
 private:
     Ui::MainWindow *ui;
+    HabitTracker m_tracker;
+    DataStorage m_storage;
+    QString m_dataFilePath = "habits.json";
+
+    void updateTable();
+    void loadData();
+    void saveData();
 };
+
 #endif // MAINWINDOW_H

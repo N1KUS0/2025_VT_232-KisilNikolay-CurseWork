@@ -1,5 +1,8 @@
 C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursework_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/User/Desktop/oop/cursework/mainwindow.h \
   C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursework_autogen/moc_predefs.h \
+  C:/Users/User/Desktop/oop/cursework/datastorage.h \
+  C:/Users/User/Desktop/oop/cursework/habit.h \
+  C:/Users/User/Desktop/oop/cursework/habittracker.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -128,6 +131,7 @@ C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MS
   C:/msys64/mingw64/include/c++/15.1.0/ext/numeric_traits.h \
   C:/msys64/mingw64/include/c++/15.1.0/ext/string_conversions.h \
   C:/msys64/mingw64/include/c++/15.1.0/ext/type_traits.h \
+  C:/msys64/mingw64/include/c++/15.1.0/filesystem \
   C:/msys64/mingw64/include/c++/15.1.0/functional \
   C:/msys64/mingw64/include/c++/15.1.0/initializer_list \
   C:/msys64/mingw64/include/c++/15.1.0/iosfwd \
@@ -194,6 +198,13 @@ C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MS
   C:/msys64/mingw64/include/pthread_signal.h \
   C:/msys64/mingw64/include/pthread_time.h \
   C:/msys64/mingw64/include/pthread_unistd.h \
+  C:/msys64/mingw64/include/qt6/QtCore/QDate \
+  C:/msys64/mingw64/include/qt6/QtCore/QFile \
+  C:/msys64/mingw64/include/qt6/QtCore/QJsonArray \
+  C:/msys64/mingw64/include/qt6/QtCore/QJsonDocument \
+  C:/msys64/mingw64/include/qt6/QtCore/QList \
+  C:/msys64/mingw64/include/qt6/QtCore/QSet \
+  C:/msys64/mingw64/include/qt6/QtCore/QString \
   C:/msys64/mingw64/include/qt6/QtCore/q17memory.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20functional.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20iterator.h \
@@ -215,6 +226,9 @@ C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MS
   C:/msys64/mingw64/include/qt6/QtCore/qbytearrayalgorithms.h \
   C:/msys64/mingw64/include/qt6/QtCore/qbytearraylist.h \
   C:/msys64/mingw64/include/qt6/QtCore/qbytearrayview.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qcalendar.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qcborcommon.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qcborvalue.h \
   C:/msys64/mingw64/include/qt6/QtCore/qchar.h \
   C:/msys64/mingw64/include/qt6/QtCore/qcompare.h \
   C:/msys64/mingw64/include/qt6/QtCore/qcompare_impl.h \
@@ -228,9 +242,12 @@ C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MS
   C:/msys64/mingw64/include/qt6/QtCore/qcontiguouscache.h \
   C:/msys64/mingw64/include/qt6/QtCore/qdarwinhelpers.h \
   C:/msys64/mingw64/include/qt6/QtCore/qdatastream.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qdatetime.h \
   C:/msys64/mingw64/include/qt6/QtCore/qdebug.h \
   C:/msys64/mingw64/include/qt6/QtCore/qendian.h \
   C:/msys64/mingw64/include/qt6/QtCore/qexceptionhandling.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qfile.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qfiledevice.h \
   C:/msys64/mingw64/include/qt6/QtCore/qflags.h \
   C:/msys64/mingw64/include/qt6/QtCore/qfloat16.h \
   C:/msys64/mingw64/include/qt6/QtCore/qforeach.h \
@@ -241,12 +258,18 @@ C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MS
   C:/msys64/mingw64/include/qt6/QtCore/qglobalstatic.h \
   C:/msys64/mingw64/include/qt6/QtCore/qhash.h \
   C:/msys64/mingw64/include/qt6/QtCore/qhashfunctions.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qiodevice.h \
   C:/msys64/mingw64/include/qt6/QtCore/qiodevicebase.h \
   C:/msys64/mingw64/include/qt6/QtCore/qiterable.h \
   C:/msys64/mingw64/include/qt6/QtCore/qiterator.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qjsonarray.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qjsondocument.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qjsonparseerror.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qjsonvalue.h \
   C:/msys64/mingw64/include/qt6/QtCore/qlatin1stringview.h \
   C:/msys64/mingw64/include/qt6/QtCore/qline.h \
   C:/msys64/mingw64/include/qt6/QtCore/qlist.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qlocale.h \
   C:/msys64/mingw64/include/qt6/QtCore/qlogging.h \
   C:/msys64/mingw64/include/qt6/QtCore/qmalloc.h \
   C:/msys64/mingw64/include/qt6/QtCore/qmap.h \
@@ -267,6 +290,7 @@ C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MS
   C:/msys64/mingw64/include/qt6/QtCore/qprocessordetection.h \
   C:/msys64/mingw64/include/qt6/QtCore/qrect.h \
   C:/msys64/mingw64/include/qt6/QtCore/qrefcount.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qregularexpression.h \
   C:/msys64/mingw64/include/qt6/QtCore/qscopedpointer.h \
   C:/msys64/mingw64/include/qt6/QtCore/qscopeguard.h \
   C:/msys64/mingw64/include/qt6/QtCore/qset.h \
@@ -313,7 +337,9 @@ C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MS
   C:/msys64/mingw64/include/qt6/QtCore/qtversionchecks.h \
   C:/msys64/mingw64/include/qt6/QtCore/qtypeinfo.h \
   C:/msys64/mingw64/include/qt6/QtCore/qtypes.h \
+  C:/msys64/mingw64/include/qt6/QtCore/qurl.h \
   C:/msys64/mingw64/include/qt6/QtCore/qutf8stringview.h \
+  C:/msys64/mingw64/include/qt6/QtCore/quuid.h \
   C:/msys64/mingw64/include/qt6/QtCore/qvariant.h \
   C:/msys64/mingw64/include/qt6/QtCore/qvarlengtharray.h \
   C:/msys64/mingw64/include/qt6/QtCore/qversiontagging.h \
