@@ -59,6 +59,13 @@
        </widget>
       </item>
       <item>
+       <widget class="QPushButton" name="editButton">
+        <property name="text">
+         <string>Редактировать</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QPushButton" name="markButton">
         <property name="text">
          <string>Отметить выполнение</string>

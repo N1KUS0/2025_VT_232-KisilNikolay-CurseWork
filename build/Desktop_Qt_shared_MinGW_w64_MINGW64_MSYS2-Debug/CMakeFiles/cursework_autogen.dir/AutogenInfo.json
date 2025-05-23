@@ -344,6 +344,12 @@
 			null
 		],
 		[
+			"C:/Users/User/Desktop/oop/cursework/habitdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_habitdialog.cpp",
+			null
+		],
+		[
 			"C:/Users/User/Desktop/oop/cursework/habittracker.h",
 			"MU",
 			"EWIEGA46WW/moc_habittracker.cpp",
@@ -431,6 +437,7 @@
 	[
 		[ "C:/Users/User/Desktop/oop/cursework/datastorage.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/habit.cpp", "MU", null ],
+		[ "C:/Users/User/Desktop/oop/cursework/habitdialog.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/habittracker.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/main.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/cursework/mainwindow.cpp", "MU", null ]

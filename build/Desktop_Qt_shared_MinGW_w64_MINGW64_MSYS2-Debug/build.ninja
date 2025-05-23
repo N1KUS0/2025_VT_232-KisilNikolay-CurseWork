@@ -85,6 +85,15 @@ build CMakeFiles/cursework.dir/habit.cpp.obj: CXX_COMPILER__cursework_unscanned_
   OBJECT_DIR = CMakeFiles\cursework.dir
   OBJECT_FILE_DIR = CMakeFiles\cursework.dir
 
+build CMakeFiles/cursework.dir/habitdialog.cpp.obj: CXX_COMPILER__cursework_unscanned_Debug C$:/Users/User/Desktop/oop/cursework/habitdialog.cpp || cmake_object_order_depends_target_cursework
+  CONFIG = Debug
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\cursework.dir\habitdialog.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursework_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\cursework.dir
+  OBJECT_FILE_DIR = CMakeFiles\cursework.dir
+
 build CMakeFiles/cursework.dir/habittracker.cpp.obj: CXX_COMPILER__cursework_unscanned_Debug C$:/Users/User/Desktop/oop/cursework/habittracker.cpp || cmake_object_order_depends_target_cursework
   CONFIG = Debug
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
@@ -111,7 +120,7 @@ build CMakeFiles/cursework.dir/datastorage.cpp.obj: CXX_COMPILER__cursework_unsc
 #############################################
 # Link the executable cursework.exe
 
-build cursework.exe: CXX_EXECUTABLE_LINKER__cursework_Debug CMakeFiles/cursework.dir/cursework_autogen/mocs_compilation.cpp.obj CMakeFiles/cursework.dir/main.cpp.obj CMakeFiles/cursework.dir/mainwindow.cpp.obj CMakeFiles/cursework.dir/habit.cpp.obj CMakeFiles/cursework.dir/habittracker.cpp.obj CMakeFiles/cursework.dir/datastorage.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || cursework_autogen cursework_autogen_timestamp_deps
+build cursework.exe: CXX_EXECUTABLE_LINKER__cursework_Debug CMakeFiles/cursework.dir/cursework_autogen/mocs_compilation.cpp.obj CMakeFiles/cursework.dir/main.cpp.obj CMakeFiles/cursework.dir/mainwindow.cpp.obj CMakeFiles/cursework.dir/habit.cpp.obj CMakeFiles/cursework.dir/habitdialog.cpp.obj CMakeFiles/cursework.dir/habittracker.cpp.obj CMakeFiles/cursework.dir/datastorage.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || cursework_autogen cursework_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -g
   LINK_FLAGS = -mwindows

@@ -25,6 +25,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         habit.h
         habit.cpp
+        habitdialog.h
+        habitdialog.cpp
         habittracker.h
         habittracker.cpp
         datastorage.h
