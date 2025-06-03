@@ -9,12 +9,13 @@ class HabitTracker {
 public:
     void addHabit(const Habit& habit);
     void removeHabit(int id);
-    QList<Habit> getHabits() const;
-    QList<Habit> getHabitsForDate(const QDate& date) const;
+    QList<Habit>& getHabits() { return m_habits; } // Неконстантная версия
+    const QList<Habit>& getHabits() const { return m_habits; } // Константная версия
+    QList<Habit> getHabitsForDate(const QDate& date) const;  // Привычки, актуальные на дату
+    int generateId() const;  // Генератор уникальных ID
 
 private:
     QList<Habit> m_habits;
-    int generateId() const;
 };
 
 #endif // HABITTRACKER_H

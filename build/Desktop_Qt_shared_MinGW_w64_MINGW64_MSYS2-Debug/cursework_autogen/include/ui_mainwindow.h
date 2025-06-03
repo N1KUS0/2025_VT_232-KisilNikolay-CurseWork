@@ -33,6 +33,7 @@ public:
     QHBoxLayout *horizontalLayout;
     QPushButton *addButton;
     QPushButton *deleteButton;
+    QPushButton *editButton;
     QPushButton *markButton;
     QStatusBar *statusbar;
 
@@ -77,6 +78,11 @@ public:
 
         horizontalLayout->addWidget(deleteButton);
 
+        editButton = new QPushButton(centralwidget);
+        editButton->setObjectName("editButton");
+
+        horizontalLayout->addWidget(editButton);
+
         markButton = new QPushButton(centralwidget);
         markButton->setObjectName("markButton");
 
@@ -108,6 +114,7 @@ public:
         ___qtablewidgetitem3->setText(QCoreApplication::translate("MainWindow", "\320\237\321\200\320\276\320\263\321\200\320\265\321\201\321\201", nullptr));
         addButton->setText(QCoreApplication::translate("MainWindow", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
         deleteButton->setText(QCoreApplication::translate("MainWindow", "\320\243\320\264\320\260\320\273\320\270\321\202\321\214", nullptr));
+        editButton->setText(QCoreApplication::translate("MainWindow", "\320\240\320\265\320\264\320\260\320\272\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214", nullptr));
         markButton->setText(QCoreApplication::translate("MainWindow", "\320\236\321\202\320\274\320\265\321\202\320\270\321\202\321\214 \320\262\321\213\320\277\320\276\320\273\320\275\320\265\320\275\320\270\320\265", nullptr));
     } // retranslateUi
 

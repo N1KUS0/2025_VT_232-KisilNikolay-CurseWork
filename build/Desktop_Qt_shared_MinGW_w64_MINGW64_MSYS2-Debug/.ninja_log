@@ -22,3 +22,17 @@
 486	2869	7706154804169340	CMakeFiles/cursework.dir/habitdialog.cpp.obj	c26013cda1cdf48f
 483	3300	7706154804149348	CMakeFiles/cursework.dir/mainwindow.cpp.obj	4711b2f00b89bb2d
 3300	3457	7706154832311296	cursework.exe	726719a0929e9bc5
+5	40	7706157486579252	CMakeFiles/clean.additional	7155004b3956b606
+40	48	7706157486941936	clean	9c4b4372737ab8da
+21	583	7706157493070801	cursework_autogen/timestamp	5b3f0c166bb7d0b7
+21	583	7706157493070801	cursework_autogen/mocs_compilation.cpp	5b3f0c166bb7d0b7
+21	583	7706157493070801	C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursework_autogen/timestamp	5b3f0c166bb7d0b7
+21	583	7706157493070801	C:/Users/User/Desktop/oop/cursework/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursework_autogen/mocs_compilation.cpp	5b3f0c166bb7d0b7
+590	2402	7706157493517979	CMakeFiles/cursework.dir/habit.cpp.obj	3f8f20fb2f47f480
+586	3098	7706157493471518	CMakeFiles/cursework.dir/main.cpp.obj	6de47dc6afe70a12
+594	3161	7706157493553311	CMakeFiles/cursework.dir/habittracker.cpp.obj	f4bcc46fed04f95d
+583	3191	7706157493451486	CMakeFiles/cursework.dir/cursework_autogen/mocs_compilation.cpp.obj	9fd7351fe42f196b
+596	3545	7706157493578572	CMakeFiles/cursework.dir/datastorage.cpp.obj	f3392bd88672fa83
+592	3598	7706157493538068	CMakeFiles/cursework.dir/habitdialog.cpp.obj	c26013cda1cdf48f
+588	5827	7706157493497900	CMakeFiles/cursework.dir/mainwindow.cpp.obj	4711b2f00b89bb2d
+5827	5996	7706157545892907	cursework.exe	726719a0929e9bc5

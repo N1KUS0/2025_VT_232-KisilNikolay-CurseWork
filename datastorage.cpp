@@ -43,7 +43,7 @@ bool DataStorage::loadFromFile(HabitTracker& tracker, const QString& filePath) {
     return true;
 }
 
-// Преобразование Habit -> JSON
+// Преобразование Habit - JSON
 QJsonObject DataStorage::habitToJson(const Habit& habit) {
     QJsonObject json;
     json["id"] = habit.getId();
@@ -57,8 +57,10 @@ QJsonObject DataStorage::habitToJson(const Habit& habit) {
     }
     json["targetDays"] = targetDaysArray;
 
+    const QSet<QDate>& dates = habit.getCompletedDates();
+
     QJsonArray completedDatesArray;
-    for (const QDate& date : habit.getCompletedDates()) {  // Предполагаем, что добавили метод getCompletedDates() в Habit
+    for (const QDate& date : dates) {
         completedDatesArray.append(date.toString(Qt::ISODate));
     }
     json["completedDates"] = completedDatesArray;
@@ -66,7 +68,7 @@ QJsonObject DataStorage::habitToJson(const Habit& habit) {
     return json;
 }
 
-// Преобразование JSON -> Habit
+// Преобразование JSON - Habit
 Habit DataStorage::jsonToHabit(const QJsonObject& json) {
     int id = json["id"].toInt();
     QString name = json["name"].toString();

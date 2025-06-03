@@ -9,10 +9,6 @@ void HabitTracker::removeHabit(int id) {
     m_habits.erase(it, m_habits.end());
 }
 
-QList<Habit> HabitTracker::getHabits() const {
-    return m_habits;
-}
-
 QList<Habit> HabitTracker::getHabitsForDate(const QDate& date) const {
     QList<Habit> result;
     for (const auto& habit : m_habits) {
